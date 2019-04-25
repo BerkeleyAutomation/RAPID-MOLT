@@ -14,5 +14,5 @@ The contributions are as follows:
 
 As seen in the flow chart above, each platform unit functions together as follows. Plant and environmental images and data are collected by the sensing unit, and sent to the cloud processing unit for the creation of data-specific irrigation schedules. These schedules are relayed to the irrigation unit for irrigation deployment to the potted plants.
 
-CAD models for construction, code for the software infrastructure, and experimental data can all be found on this repository. 
+CAD models for construction can be found on this repository. Code for the software infrastructure and experimental data will be posted soon!
 
