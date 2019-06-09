@@ -16,8 +16,12 @@ As seen in the flow chart above, each platform unit functions together as follow
 
 ## Software
 
-The software is grouped in 1) sensing, 2) data processing, and 3) actuation. The sensing folder contains the code for the android app and the arduino uno. The data processing contains files: 
-The actuatuon folder contains the scripts and files for the raspberry pie to execute the derived irrigation schedule. 
+The software is grouped in 1) sensing, 2) data processing, and 3) actuation. 
+1) The sensing folder contains the code for the android app (uploades the thermal and rgb images to the cloud) and the arduino uno. 
+2) The data processing contains two core files:
+- downloadImagesFromGoogleDrive.py    downloads the images from the cloud to the local computer
+- process_images.py                   extracts the LAI and leaf temperature out of the images
+3) The actuation folder contains the scripts and files for the raspberry pie to execute the derived irrigation schedule.
 
 ## Hardware
 CAD models for construction can be found on this repository. Code for the software infrastructure and experimental data will be posted soon.
