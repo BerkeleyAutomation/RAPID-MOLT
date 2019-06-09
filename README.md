@@ -23,6 +23,8 @@ The software is grouped in 1) sensing, 2) data processing, and 3) actuation.
 - process_images.py                   extracts the LAI and leaf temperature out of the images
 3) The actuation folder contains the scripts and files for the raspberry pie to execute the derived irrigation schedule.
 
+The Data folder contains an example of images from one experiment and the files resulting from the image processing.
+
 ## Hardware
 CAD models for construction can be found on this repository. Code for the software infrastructure and experimental data will be posted soon.
 
